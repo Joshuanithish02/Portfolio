@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sree+Krushnadevaraya&family=Tektur:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sree+Krushnadevaraya&family=Tektur:wght@400..900&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  background: black;
+}
+body{
+    background: black;
+}
+.header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      background: black;
+      padding: 10px;
+}
+.header a{
+          text-decoration:none;
+          text-weight:bold;
+          font-family: "Tektur", sans-serif;
+          font-optical-sizing: auto;
+         font-weight: <weight>;
+         font-style: normal;
+        font-variation-settings:"wdth" 100;
+ } 
+.name{
+      color: #00ffff;
+      font-size: 30px;
+      padding: 0px 10px;
+}
+.navbar li a{
+      color:whitesmoke;
+}
+.navbar li{
+          display: inline-block;
+          padding: 0px 20px;
+}
+.navbar li a:hover{
+         color: #ff2400;
+}
+.menu-toggle {
+            display: none;
+        }
+
+ @media (max-width: 894px) {
+            .navbar li {
+                display: none;
+                justify-content: space-between;
+                flex-direction: column;
+                background-color: #333;
+                position: absolute;
+                top: 50px;
+                right: 0;
+                width: 200px;
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            }
+            .menu-toggle {
+                display: block;
+                color: white;
+                font-size: 20px;
+                cursor: pointer;
+            }
+            .menu.active {
+                display: flex;
+            }
+        }
+
+.about{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px 10px;
+      background: black;
+}
+.main-text{
+            color: #ff2400;
+            text-size:50px;
+            padding: 10px;
+           font-family: "Sree Krushnadevaraya", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.about-para{
+            color: whitesmoke;
+            text-size:25px;
+             padding: 10px;
+             font-family: "Poppins", serif;
+            font-weight: 400;
+           font-style: normal;
+}
+.about-img{
+          width:500px;
+          height:500px;
+}
+.skill{
+      padding: 50px 0px;
+}
+.skill h1{
+          color: #ff2400;
+          text-align: center;
+          padding-bottom: 50px;
+          font-family: "Sree Krushnadevaraya", serif;
+  font-weight: 800;
+  font-style: normal;
+
+}
+.skills-div{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 20px;
+            font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.skills-div ul{
+         list-style-type none;
+
+}
+#border{
+      border: 1px white solid;
+      border-radius: 10px;
+      color: whitesmoke;
+      padding: 15px;
+
+
+}
+#border h3{
+          text-align: center;
+          color: #7df9ff;
+}
+.project{
+      padding: 50px 0px;
+}
+.project-name{
+          color: #ff2400;
+          text-align: center;
+          padding-bottom: 50px;
+          font-family: "Sree Krushnadevaraya", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.project-div{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 20px;
+            font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#border{
+      border: 1px white solid;
+      border-radius: 10px;
+      color: whitesmoke;
+      padding: 15px;
+
+
+}
+#border h3{
+          text-align: center;
+          color: #7df9ff;
+}
+
+
+.footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        .footer .social-icons {
+            margin: 10px 0;
+        }
+        .footer .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        .footer .social-icons a:hover {
+            color: #ff6347; /* Highlight color */
+        }
+        .footer .links {
+            margin: 15px 0;
+        }
+        .footer .links a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+        .footer .links a:hover {
+            color: #ff6347; /* Highlight color */
+        }
+        .footer .thank-you {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #aaa;
+        }
